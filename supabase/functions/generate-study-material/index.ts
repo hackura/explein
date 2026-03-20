@@ -1,4 +1,4 @@
-/// <reference lib="deno.ns" />
+// Deno environment setup
 
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*',

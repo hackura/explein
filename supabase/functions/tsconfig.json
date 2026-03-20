@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "Node",
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "std/*": ["https://deno.land/std@0.208.0/*"]
+    }
+  },
+  "include": ["./**/*.ts", "./deno.d.ts"]
+}
