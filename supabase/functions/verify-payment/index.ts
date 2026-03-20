@@ -1,3 +1,4 @@
+/// <reference lib="deno.ns" />
 import { createClient } from "@supabase/supabase-js"
 
 const corsHeaders = {
